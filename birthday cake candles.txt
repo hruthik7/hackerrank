@@ -1,0 +1,5 @@
+from operator import*
+x=int(input())
+list1=[int(x) for x in input().split()]
+s=countOf(list1,max(list1))
+print(s)
